@@ -1,0 +1,52 @@
+body {
+    background: #F4A9C7;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h1 {
+    color: #20716A;
+    background-color: aliceblue;
+    font-weight: bold;
+    font-size: 350%;
+  }
+
+.playerName {
+  color: #20716A;
+  font-size: 150%;
+  font-weight: bold;
+  }    
+
+.textos {
+  background-color: aliceblue;
+  color: #20716A;
+  font-size: 150%;
+  font-weight: 200;
+  border-radius: 5px;
+  border: 2px solid lightgrey;
+  padding: 0.5em;
+  line-height: 1.4;
+  width: 300px;
+  height: 250px;
+}
+
+  .inputs {
+    color: #20716A;
+    font-size: 90%;
+    font-weight: bold;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: 2px solid lightgrey;
+  }
+
+  .desplazamientos {
+    color: #20716A;
+    font-size: 100%;
+    font-weight: bold;
+  }
+
+  .button {
+    color:#20716A;
+    font-weight: bold;
+    font-size: 90%;
+  }
