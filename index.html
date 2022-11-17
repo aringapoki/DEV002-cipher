@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="root">
+      <h1>Código Rol</h1>
+      <p  class="playerName">Nombre jugador: </p> <input type="text" id="playerName" class="inputs"/>
+      <br><br><br><br>
+      <textarea id="originalText" class="textos" placeholder="tu texto a cifrar aquí"></textarea>
+      <br><br><br>
+      <p class="desplazamientos">N° desplazamientos</p> 
+      <input type="number" id="displacement" name="displacement" min="1" max="100" class="inputs"/>  
+      <button type="button" id="cipher" class="button">cifrar</button>
+      <button type="button" id="decipher" class="button">descifrar</button>
+      
+      <br><br><br>
+      <p id="playerName2"></p>
+      <textarea id="textoFinal" class="textos"></textarea>
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
