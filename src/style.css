@@ -1,25 +1,33 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  }
+  
+
 body {
-    background: #F4A9C7;
+    background-image: url("https://m.media-amazon.com/images/M/MV5BYTg5ZWI3OTgtMGM3MS00ODRhLThiZGQtZDg0MDI0YTA5ZGRkXkEyXkFqcGdeQXVyNzgxMzc3OTc@._V1_.jpg");
+    background-attachment: fixed;
+    background-size: cover;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    color:#20716A;
   }
 
   h1 {
-    color: #20716A;
     background-color: aliceblue;
     font-weight: bold;
     font-size: 350%;
   }
 
 .playerName {
-  color: #20716A;
+  background-color: aliceblue;
   font-size: 150%;
   font-weight: bold;
   }    
 
 .textos {
   background-color: aliceblue;
-  color: #20716A;
   font-size: 150%;
   font-weight: 200;
   border-radius: 5px;
@@ -31,7 +39,6 @@ body {
 }
 
   .inputs {
-    color: #20716A;
     font-size: 90%;
     font-weight: bold;
     background-color: aliceblue;
@@ -40,13 +47,11 @@ body {
   }
 
   .desplazamientos {
-    color: #20716A;
     font-size: 100%;
     font-weight: bold;
   }
 
   .button {
-    color:#20716A;
     font-weight: bold;
     font-size: 90%;
   }
