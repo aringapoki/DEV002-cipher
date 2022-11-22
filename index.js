@@ -2,7 +2,7 @@ import cipher from './cipher.js';
 
 //capturar valor del input de nombre 
 
-let playerName = document.getElementById("playerName").value;
+// let playerName = document.getElementById("playerName").value;
 // llamar funciones
 
 //crear eventos click para cifrar y descifrar
