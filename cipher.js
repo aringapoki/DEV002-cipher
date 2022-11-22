@@ -25,7 +25,7 @@ encode (displacement, originalText) {
             }
     }
   }  
-  console.log('textoCifrado >>', textoCifrado)
+ // console.log('textoCifrado >>', textoCifrado)
   return textoCifrado;
 }, 
 
@@ -50,7 +50,7 @@ decode (displacement, originalText) {
           }
 }
 }  
-    console.log('textoDescifrado >>', textoDescifrado)
+    //console.log('textoDescifrado >>', textoDescifrado)
     return textoDescifrado;
 
 }

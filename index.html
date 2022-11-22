@@ -7,20 +7,28 @@
   </head>
   <body>
     <div id="root">
-      <h1>Código Rol</h1>
-      <p  class="playerName">Nombre jugador: <input type="text" id="playerName" class="inputs"/></p> 
-      <br><br>
-      <textarea id="originalText" class="textos" placeholder="tu texto a cifrar aquí"></textarea>
-      <br><br><br>
-      <p class="desplazamientos">N° desplazamientos</p> 
-      <input type="number" id="displacement" name="displacement" min="1" max="100" class="inputs"/>  
-      <button type="button" id="cipher" class="button">cifrar</button>
-      <button type="button" id="decipher" class="button">descifrar</button>
-      
-      <br><br><br>
-      <p id="playerName2" class="playerName"></p>
-      <textarea id="textoFinal" class="textos"></textarea>
-    </div>
+    <h1>Código Rol</h1>
+      <section class="flexContainer"> 
+      <div class="texto1">
+        <textarea id="originalText" class="textarea" placeholder="tu texto a cifrar aquí"></textarea>
+      </div>
+      <div class = "texto2">
+        <textarea id="textoFinal" class="textarea"></textarea>
+      </div> </section>
+
+    <section class="clave">
+      <div class="desplazamientos">
+        <p>N° desplazamientos</p>
+        <input type="number" id="displacement" name="displacement" min="1" max="100" class="inputs"/>  
+        <p id="playerName2"></p>
+      </div>
+      <div class="boton">
+        <button type="button" id="cipher" class="button">cifrar</button>
+        <button type="button" id="decipher" class="button">descifrar</button>
+      </div>
+    </section>
+    
+  </div>
     <script src="index.js" type="module"></script>
   </body>
 </html>
