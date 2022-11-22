@@ -4,7 +4,6 @@
   box-sizing: border-box;
   }
   
-
 body {
     background-image: url("https://m.media-amazon.com/images/M/MV5BYTg5ZWI3OTgtMGM3MS00ODRhLThiZGQtZDg0MDI0YTA5ZGRkXkEyXkFqcGdeQXVyNzgxMzc3OTc@._V1_.jpg");
     background-attachment: fixed;
@@ -14,44 +13,75 @@ body {
     color:#20716A;
   }
 
-  h1 {
-    background-color: aliceblue;
-    font-weight: bold;
-    font-size: 350%;
+h1{
+  background-color: #fae7f3;
+  margin: 20px 425px 20px 425px;
+  border-radius: 5px;
+  font-size: 70px;
+  width: 450px;
+  height: 85px;
   }
 
-.playerName {
-  background-color: aliceblue;
-  font-size: 150%;
-  font-weight: bold;
-  }    
 
-.textos {
+.clave{ 
+  padding: 10px;
+  margin: 20px 450px 10px 450px;
+  background-color: #fae7f3;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 400px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 35px;
+  }
+
+.inicio {
+  padding: 10px;
+}
+
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  justify-content: center;
+ }
+
+.textarea {
   background-color: aliceblue;
+  color: #20716A;
   font-size: 150%;
   font-weight: 200;
   border-radius: 5px;
   border: 2px solid lightgrey;
-  padding: 0.5em;
+  padding: 17px;
+  margin: 30px;
+  border: 3px solid lightgray;
   line-height: 1.4;
-  width: 300px;
+  width: 450px;
   height: 250px;
 }
 
   .inputs {
     font-size: 90%;
+    padding: 3px;
     font-weight: bold;
     background-color: aliceblue;
     border-radius: 5px;
     border: 2px solid lightgrey;
+    color: #20716A;
   }
 
-  .desplazamientos {
-    font-size: 100%;
-    font-weight: bold;
-  }
-
-  .button {
+ .button {
     font-weight: bold;
     font-size: 90%;
-  }
+    color:#20716A;
+    border: 2px solid lightgrey;
+    margin: 1px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+  } 
+
