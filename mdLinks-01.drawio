@@ -1,1 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2023-02-20T18:04:01.434Z" agent="5.0 (Windows)" version="20.8.21" etag="xGNsRzkiRq06d68BoZTn" type="github"><diagram name="Página-1" id="Qp-O5KWh5upZKU0yOLEd">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-20T18:44:54.381Z" agent="5.0 (Windows)" etag="LVryNQLpgPGZCKb1qJaE" version="20.8.21" type="github">
+  <diagram name="Página-1" id="Qp-O5KWh5upZKU0yOLEd">
+    <mxGraphModel dx="1418" dy="285" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mX1u97NxQCTPMc64AiO7-18" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=16;fillColor=none;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="-830" y="60" width="1650" height="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="mX1u97NxQCTPMc64AiO7-14" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="650" y="330" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mX1u97NxQCTPMc64AiO7-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mX1u97NxQCTPMc64AiO7-2" target="mX1u97NxQCTPMc64AiO7-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint y="130" />
+              <mxPoint y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mX1u97NxQCTPMc64AiO7-2" value="&lt;div&gt;se ejecuta mdLinks,&lt;/div&gt;&lt;div&gt;con argumentos para&lt;/div&gt;&lt;div&gt;path y options&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-80" y="41" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mX1u97NxQCTPMc64AiO7-8" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;ENTRAR&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mX1u97NxQCTPMc64AiO7-3" target="mX1u97NxQCTPMc64AiO7-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mX1u97NxQCTPMc64AiO7-3" value="&lt;div&gt;&lt;b&gt;ruta donde están&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;los archivos md&lt;/b&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="-82" y="160" width="164" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mX1u97NxQCTPMc64AiO7-5" value="entrar a los archivos y leerlos" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-560" y="330" width="201" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mX1u97NxQCTPMc64AiO7-10" value="&lt;h2&gt;NO&lt;br&gt;&lt;/h2&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mX1u97NxQCTPMc64AiO7-6" target="mX1u97NxQCTPMc64AiO7-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="380.0000000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="370" />
+              <mxPoint x="80" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mX1u97NxQCTPMc64AiO7-17" value="&lt;b&gt;SI&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=16;" edge="1" parent="1" source="mX1u97NxQCTPMc64AiO7-6" target="mX1u97NxQCTPMc64AiO7-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mX1u97NxQCTPMc64AiO7-6" value="hay archivos md" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-60" y="320" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mX1u97NxQCTPMc64AiO7-13" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;NO&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=16;" edge="1" parent="1" source="mX1u97NxQCTPMc64AiO7-11" target="mX1u97NxQCTPMc64AiO7-12">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="370" />
+              <mxPoint x="430" y="370" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mX1u97NxQCTPMc64AiO7-11" value="&lt;b&gt;hay directorios&lt;/b&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="360" y="320.0000000000001" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mX1u97NxQCTPMc64AiO7-12" value="&lt;div&gt;&lt;b&gt;devolver un &lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;mensaje&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;de error (?)&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="660" y="340.0000000000001" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
